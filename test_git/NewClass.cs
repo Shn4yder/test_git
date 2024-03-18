@@ -8,5 +8,9 @@ namespace test_git
 {
     internal class NewClass
     {
+        public string Name { get; set; }
+
+        public NewClass() { }
+
     }
 }
