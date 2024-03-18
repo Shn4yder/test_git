@@ -3,8 +3,13 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-## ignore the file
-IgnoreClass.cs
+## ignore files and folders 
+
+test_git/bin # ignore bin folder 
+test_git/obj # ignore obj folder
+.vs/
+*.txt # ignore txt files
+
 
 # User-specific files
 *.rsuser
